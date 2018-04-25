@@ -1,0 +1,5 @@
+{
+    "require": {
+        "shopexpress/apiclient": "^1.0"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2e953aae6dd73c7328d83610510c2418",
+    "packages": [
+        {
+            "name": "shopexpress/apiclient",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/difocus/api/apiclient.git",
+                "reference": "1d89a5b9748537fd5acfba47584abe55b9d45faa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/difocus%2Fapi%2Fapiclient/repository/archive.zip?sha=1d89a5b9748537fd5acfba47584abe55b9d45faa",
+                "reference": "1d89a5b9748537fd5acfba47584abe55b9d45faa",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShopExpress\\ApiClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ShopExpress API Client",
+            "homepage": "https://github.com/ShopExpress/apiclient",
+            "keywords": [
+                "ShopExpress",
+                "apiclient"
+            ],
+            "time": "2018-04-21T13:29:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
